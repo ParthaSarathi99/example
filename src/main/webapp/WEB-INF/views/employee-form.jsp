@@ -17,10 +17,10 @@ rel="stylesheet">
 
 
 </head>
-<body background="<c:url value="/resources/images/back5.jfif"/>"/>
+<body background="<c:url value="/resources/images/re.png"/>"/>
 <div class="container">
 <div class="col-md-offset-2 col-md-7">
-<h2 class="text-center">ERM - Web Applications</h2>
+<h2 class="text-center">Royal Enfield Management</h2>
 <div class="panel panel-info">
 <div class="panel-heading">
 <div class="panel-title">Add Employee</div>
@@ -64,9 +64,10 @@ Of Birth</b></label>
 </div>
 </div>
 
-<div class="form-group">
-<label for="empaddress" class="col-md-3 control-label"><b>Address
-Of Employee</b></label>
+<div class="form-group" color="red">
+<label for="empaddress" class="col-md-3 control-label">
+<b>Address
+Of Employee </b></label>
 <div class="col-md-9">
 <form:input path="empaddress" cssClass="form-control" />
 </div>

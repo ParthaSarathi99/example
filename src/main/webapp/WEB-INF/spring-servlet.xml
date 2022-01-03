@@ -30,9 +30,9 @@ class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 <bean id="myDataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
 destroy-method="close">
 <property name="driverClass" value="com.mysql.jdbc.Driver" />
-<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/assignment?useSSL=false&amp;serverTimezone=UTC" />
+<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/assignmentdb?useSSL=false&amp;serverTimezone=UTC" />
 <property name="user" value="root" />
-<property name="password" value="root" />
+<property name="password" value="cfg@1234" />
 
 <!-- these are connection pool properties for C3P0 -->
 <property name="minPoolSize" value="5" />

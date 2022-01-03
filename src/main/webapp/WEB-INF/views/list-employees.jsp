@@ -18,13 +18,13 @@ rel="stylesheet">
 <script src="<c:url value="/resources/js/bootstrap.min.js" />"></script>
 
 </head>
-<body background="<c:url value="/resources/images/img1.webp"/>"/>
+<body background="<c:url value="/resources/images/logo2.png"/>"/>
 
 <div class="container">
 <div class="col-md-offset-1 col-md-10">
-<img src="<c:url value="/resources/images/coforge2.png"/>" width=100px height=100px />
+
 <div id="x1">
-<h2>ERM - Employee Relationship Manager</h2>
+<h2>Royal Enfield Manager</h2>
 </div>
 <hr color="green" size="3" />
 
